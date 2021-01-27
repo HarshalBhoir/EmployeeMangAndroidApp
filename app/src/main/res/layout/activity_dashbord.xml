@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="588dp"
+                android:layout_margin="0dp"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:id="@+id/List_layout"
+                    android:layout_width="225dp"
+                    android:layout_height="250dp"
+                    android:layout_weight="1">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true">
+
+                        <ImageView
+
+                            android:id="@+id/employe"
+                            android:layout_width="120dp"
+                            android:layout_height="100dp"
+                            android:layout_centerHorizontal="true"
+                            android:adjustViewBounds="true"
+                            android:padding="8dp"
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/employe" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/employe"
+                            android:layout_centerHorizontal="true"
+                            android:text="List Employee"
+                            android:textColor="#FFFF"
+                            android:textSize="25sp" />
+
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/option"
+                    android:layout_width="225dp"
+                    android:layout_height="249dp"
+                    android:layout_weight="1">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true">
+
+                        <ImageView
+
+                            android:id="@+id/opt"
+                            android:layout_width="120dp"
+                            android:layout_height="100dp"
+                            android:layout_centerHorizontal="true"
+                            android:adjustViewBounds="true"
+                            android:padding="8dp"
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/opt" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/opt"
+                            android:layout_centerHorizontal="true"
+                            android:text="Options"
+                            android:textColor="#FFFF"
+                            android:textSize="25sp" />
+                        android:textSize="20sp" />
+
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="556dp"
+                android:layout_margin="0dp"
+                android:layout_weight="1"
+
+                >
+
+                <RelativeLayout
+                    android:id="@+id/infoo"
+                    android:layout_width="match_parent"
+                    android:layout_height="233dp"
+                    android:layout_weight="1"
+
+                    >
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true">
+
+                        <ImageView
+
+                            android:id="@+id/info"
+                            android:layout_width="120dp"
+                            android:layout_height="100dp"
+                            android:layout_centerHorizontal="true"
+                            android:adjustViewBounds="true"
+                            android:padding="8dp"
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/info" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/info"
+                            android:layout_centerHorizontal="true"
+                            android:text="Information"
+                            android:textColor="#FFFF"
+                            android:textSize="25sp" />
+
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/comm"
+                    android:layout_width="match_parent"
+                    android:layout_height="233dp"
+                    android:layout_weight="1">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true">
+
+                        <ImageView
+
+                            android:id="@+id/communication"
+                            android:layout_width="120dp"
+                            android:layout_height="100dp"
+                            android:layout_centerHorizontal="true"
+                            android:adjustViewBounds="true"
+                            android:padding="8dp"
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/com" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/communication"
+                            android:layout_centerHorizontal="true"
+                            android:text="Communication"
+                            android:textColor="#FFFF"
+                            android:textSize="25sp" />
+
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="556dp"
+                android:layout_margin="0dp"
+                android:layout_weight="1"
+
+                >
+
+                <RelativeLayout
+                    android:id="@+id/maps"
+                    android:layout_width="match_parent"
+                    android:layout_height="233dp"
+                    android:layout_weight="1"
+
+                    >
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true">
+
+                        <ImageView
+
+                            android:id="@+id/map"
+                            android:layout_width="120dp"
+                            android:layout_height="100dp"
+                            android:layout_centerHorizontal="true"
+                            android:adjustViewBounds="true"
+                            android:padding="8dp"
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/map" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/map"
+                            android:layout_centerHorizontal="true"
+                            android:text="Map"
+                            android:textColor="#FFFF"
+                            android:textSize="25sp" />
+
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/exitt"
+                    android:layout_width="match_parent"
+                    android:layout_height="233dp"
+                    android:layout_weight="1">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true">
+
+                        <ImageView
+
+                            android:id="@+id/exit"
+                            android:layout_width="120dp"
+                            android:layout_height="100dp"
+                            android:layout_centerHorizontal="true"
+                            android:adjustViewBounds="true"
+                            android:padding="8dp"
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/exit" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/exit"
+                            android:layout_centerHorizontal="true"
+                            android:text="exit"
+                            android:textColor="#FFFF"
+                            android:textSize="25sp" />
+
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
+
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashbordActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mafhemtech 3lech ma ye5demech"
+        android:textColor="#FF0000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.385" />
+
+    <TextView
+        android:id="@+id/_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.591" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+-->
